@@ -1,27 +1,35 @@
-# QStayAdminPortal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+# QUARANTINE STAY BOOKING PORTAL
+  
+   This is the Frontend(Admin) implementation of the Project. Front-end (User) and Backend is implemented at:
+   
+    https://github.com/haritaToboso/ICT_Capstone_QStay_FrontEnd_User
+    
+    https://github.com/haritaToboso/ICT_Capstone_QStay_FrontEnd_Admin
 
-## Development server
+## How to Run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Clone the code from GitHub/ Download as zip
+    ````  
+     https://github.com/haritaToboso/ICT_Capstone_QStay_FrontEnd_Admin
+    ````
+2. Open new terminal. Navigate to project folder
+3.  Install all the dependencies by giving the following command in terminal
+        ````
+       npm i
+        ````
+4. Serve the app
+        ````
+      ng serve --open
+        ````
+        
+## Firebase Deployed URL
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  https://q-stay-admin.web.app/
+   
+    
+## Tools and Technologies
+     Angular,Bootstrap,Typescript
+     
+## Author
+Harita Ravindranath
