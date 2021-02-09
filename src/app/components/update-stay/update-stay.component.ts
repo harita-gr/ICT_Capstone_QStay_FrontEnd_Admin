@@ -25,7 +25,7 @@ export class UpdateStayComponent implements OnInit {
     type:''
   }
   facilities:string[]=[];
-  airports = ['Calicut','Cochin','Kannur','Kasargod','Kollam','Kottayam','Thiruvananthapuram'];
+  airports = ['Calicut','Cochin','Kannur','Thiruvananthapuram'];
 
   constructor(private _stayService:StayService,
     private _router:Router) {

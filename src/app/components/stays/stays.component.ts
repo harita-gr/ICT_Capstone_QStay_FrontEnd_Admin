@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class StaysComponent implements OnInit {
 
-  airports = ['Calicut','Cochin','Kannur','Kasargod','Kollam','Kottayam','Thiruvananthapuram'];
+  airports = ['Calicut','Cochin','Kannur','Thiruvananthapuram'];
   stays:Stay[];
   p: number = 1;
 
