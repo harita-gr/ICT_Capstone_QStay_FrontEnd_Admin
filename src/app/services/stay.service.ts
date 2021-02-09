@@ -9,8 +9,8 @@ export class StayService {
 
 
 
-  _url='http://localhost:3000/';
-  // _url='https://qstay-backend.herokuapp.com/';
+  //_url='http://localhost:3000/';
+  _url='https://qstay-backend.herokuapp.com/';
 
   addStay(stay: Stay) {
     return this._http.post<any>(this._url+'admin/stay/addStay',stay);
