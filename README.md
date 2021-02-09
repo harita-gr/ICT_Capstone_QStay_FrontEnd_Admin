@@ -22,7 +22,13 @@
         ````
       ng serve --open
         ````
-        
+5.Make sure server is running
+
+Heroku Hosted Link:
+
+https://qstay-backend.herokuapp.com/
+
+
 ## Firebase Deployed URL
 
   https://q-stay-admin.web.app/
