@@ -1,0 +1,19 @@
+<app-login *ngIf="!_auth.loggedIn()"></app-login>
+<div *ngIf="_auth.loggedIn()">
+  
+    <!-- SIDEBAR -->
+    <app-sidebar></app-sidebar>
+    <!-- /SIDEBAR -->
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <app-header id="header"></app-header>
+      <div id="content">
+        <router-outlet></router-outlet>
+      </div>     
+      </div>
+
+    <!-- FOOTER -->
+    <app-footer></app-footer>
+
+</div>

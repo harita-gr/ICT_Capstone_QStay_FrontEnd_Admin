@@ -1,0 +1,46 @@
+<div class="orders">
+    <div class="card">
+        <div class="card-header">
+          <h3>ORDER HISTORY </h3> 
+        </div>
+        <div class="card-body">
+            <div class="data-cards">
+                <div class="card dc">
+                    <div class="card-body">
+                       <h6>INTERNATIONAL</h6>
+                       <span>{{international}}</span>
+                    </div>
+                </div>
+                <div class="card dc">
+                    <div class="card-body">
+                       <h6>INTERSTATE</h6>
+                       <span>{{interstate}}</span>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-responsive table-hover"> 
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Full Name/ID</th>
+                    <th>District</th>
+                    <th>Hotel Name</th>
+                    <th>No of Days</th>
+                    <th>Total Price</th>
+                  </tr>
+                </thead>
+                <tbody *ngFor="let order of orders  |paginate: { itemsPerPage: 10, currentPage: p };let indexOfelement=index;">
+                  <tr>
+                    <th>{{indexOfelement + 1}}</th>
+                    <td>{{order.fullName}}</td>
+                    <td>{{order.district}}</td>
+                    <td>{{order.hotelName}}</td>
+                    <td>{{order.noOfDays}}</td>
+                    <td>{{order.totalprice}}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <pagination-controls (pageChange)="p = $event"></pagination-controls>
+        </div>
+      </div>
+</div>

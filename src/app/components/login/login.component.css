@@ -1,0 +1,73 @@
+.row{
+    overflow: hidden;
+}
+.loginform, .bg{
+   /* border: 1px solid black;   */
+   height: 80vh;
+   
+}
+
+.bg{
+    background-image: url('../../../assets/images/undraw_travel_booking_6koc.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-right: 0;
+}
+
+
+
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    /* background:rgb(13, 158, 158); */
+    /* color: white; */
+    color: rgb(13, 158, 158);
+    border-radius: 15px 50px;
+    padding-right:33px !important;
+    margin-top: -90px;
+    width:30vw !important;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.card{
+    width: 30vw;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid teal;
+
+}
+
+.card-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn{
+    border-radius: 100px;
+    /* padding:3px 7px; */
+    margin-right:0;
+    margin-top:3px;
+    background:rgb(13, 158, 158);
+    color: white;  
+    border: 1px solid white;  
+}
+
+.btn:hover{
+    background:rgb(33, 197, 197);
+}
+
+.form-control{
+    border-radius: 100px;
+}
+
+hr{
+    background:teal;
+    width:70%;
+    padding:2px;
+    margin:auto;
+    margin-top:5px;
+}
